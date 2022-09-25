@@ -1,8 +1,6 @@
 /* iphone6/7/8/plus */
 @media only screen and (max-width: 415px) {
-    .container {
-        margin: 0 20px;
-    }
+    
 
     .nav {
         display: flex;
@@ -34,50 +32,48 @@
         color: #2A2A2A;
 
     }
-
-    .hot_new {
-        grid-template-columns: none;
+    .hot_new{
+        display: block;
+        margin: 0 20px;
     }
-
-    .icon_hot_new a {
-        font-size: 20px;
-    }
-
-    .trending h4 {
-        font-size: 24px;
-    }
-
-    .hot_new img {
+    .hot_new img{
+        height: 100%;
         width: 100%;
 
     }
-
-    .breaking_new {
-        display: block;
-        height: 100px;
-
+    .hot_new h4{
+        font-size: 25px;
+    }
+    .content_childd{
+        font-size: 20px;
+        line-height:20px;
     }
 
-    .breaking_child {
+    .breaking_new{
         position: relative;
-        left: 20px;
-        top: 10px;
+        margin: 33px 0px;
+        height: 130px;
+        line-height: 25px;
+        font-size: 15px;
+    }
+    .breaking_new p:first-child{
+        padding:16px 20px 20px 18px;
+      
+        margin-top: 20px;
+        top: 0;
+        left: 15px;
+        line-height: 10px;
+        height: 35px;
+    }
+    .breaking_new p:last-child{
+        bottom: 20px;
+        right: unset;
+        font-size: 15px;
+        padding: 0 10px;
 
-        height: 30px;
-        width: 125px;
-        line-height: 30px;
     }
-    .breaking_content{
-        position: absolute;
-        font-size: 13px;
-        left: 3px;
-   
-    }
-    
-    .indexing ul a{
-        margin-left: 10px;
-    }.child_content_text p {
-        font-weight: bold;
+    .news{
+        margin: 0 20px;
     }
     .news_content{
         display: block;
@@ -85,35 +81,39 @@
     .new_content_child{
         margin-bottom: 30px;
     }
-    .new_time{
-        margin-left: 25px;
-    }
-    .new_time p{
-        font-size: 5px;
-       display: inline-block;
-       gap:0;
-       padding: 3px;
-
-
-    }
-    .icon_new {
-        text-align: center;
-    }
-    .icon_new span{
-        margin: 0 11px;
-    }
-    .view h4{
-        text-align: center;
-        margin-left: 80px;
+    .new_child{
+        margin: 0 20px;
     }
     .content_new_child{
         display: block;
-    }
-    .content_new_child_item{
+    }.content_new_child_item{
         display: block;
-        margin-bottom: 50px;
-    }
-    .content_new_child_item img{
+    }.content_new_child_item img {
         width: 100%;
     }
+    .footer{
+        display: block;
+        text-align: center;
+        padding-top: 15px;
+        height: 350px;
+    }.footer_item_center{
+        line-height: 25px;
+        position: relative;
+        bottom: 30px;
+    }
+    .footer_item_left img {
+        padding-left: 10px;
+    }
+    .footer_item_left p{
+    bottom: -225px;
+    left: 3px;
+    }
+    .footer_item_right{
+        right: 10px;
+    }
+
+
+
+
+   
 }
