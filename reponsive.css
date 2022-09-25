@@ -1,0 +1,119 @@
+/* iphone6/7/8/plus */
+@media only screen and (max-width: 415px) {
+    .container {
+        margin: 0 20px;
+    }
+
+    .nav {
+        display: flex;
+        justify-content: space-between;
+        margin: 0 20px;
+    }
+
+    #logo {
+        width: 82px;
+        height: 72px;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .nav_molbie {
+        display: block;
+    }
+
+    #menu_molbie li {
+        padding-top: 5px;
+        display: inline-block;
+    }
+
+    #menu_molbie a {
+        padding-left: 40px;
+        font-size: 20px;
+        color: #2A2A2A;
+
+    }
+
+    .hot_new {
+        grid-template-columns: none;
+    }
+
+    .icon_hot_new a {
+        font-size: 20px;
+    }
+
+    .trending h4 {
+        font-size: 24px;
+    }
+
+    .hot_new img {
+        width: 100%;
+
+    }
+
+    .breaking_new {
+        display: block;
+        height: 100px;
+
+    }
+
+    .breaking_child {
+        position: relative;
+        left: 20px;
+        top: 10px;
+
+        height: 30px;
+        width: 125px;
+        line-height: 30px;
+    }
+    .breaking_content{
+        position: absolute;
+        font-size: 13px;
+        left: 3px;
+   
+    }
+    
+    .indexing ul a{
+        margin-left: 10px;
+    }.child_content_text p {
+        font-weight: bold;
+    }
+    .news_content{
+        display: block;
+    }
+    .new_content_child{
+        margin-bottom: 30px;
+    }
+    .new_time{
+        margin-left: 25px;
+    }
+    .new_time p{
+        font-size: 5px;
+       display: inline-block;
+       gap:0;
+       padding: 3px;
+
+
+    }
+    .icon_new {
+        text-align: center;
+    }
+    .icon_new span{
+        margin: 0 11px;
+    }
+    .view h4{
+        text-align: center;
+        margin-left: 80px;
+    }
+    .content_new_child{
+        display: block;
+    }
+    .content_new_child_item{
+        display: block;
+        margin-bottom: 50px;
+    }
+    .content_new_child_item img{
+        width: 100%;
+    }
+}
