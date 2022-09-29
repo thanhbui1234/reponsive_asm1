@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="fontawesome-free-6.1.1-web/css/all.min.css">
     <link rel="stylesheet" href="reponsive.css">
+
 </head>
 
 <body>
@@ -16,7 +17,7 @@
         <div class="nav">
 
             <img id="logo" src="img/logo.png" alt="">
-            <ul class="menu">
+            <ul class="menu ">
                 <li><a href="">Corona Updates</a></li>
                 <li><a href="">Politics</a></li>
                 <li><a href="">Business</a></li>
@@ -24,17 +25,19 @@
                 <li><a href="">World</a></li>
                 <li><a href="">Travel</a></li>
                 <li><a href="">Podcasts</a></li>
-                <li><a href=""><i class="fa-regular fa-user"></i></a></li>
-                <li><a href=""><i class="fa-solid fa-magnifying-glass"></i></a></li>
+
             </ul>
 
-            <div class="nav_molbie">
-                <ul id="menu_molbie">
-                    <li><a href=""><i class="fa-regular fa-user"></i></a></li>
-                    <li><a href=""><i class="fa-solid fa-magnifying-glass"></i></a></li>
-                    <li><a href=""><i class="fa-solid fa-bars"></i></a></li>
-                </ul>
-            </div>
+            <ul class="menu_icon">
+
+                <li class="icon"><i class="fa-regular fa-user"></i></li>
+                <li class="icon"><i class="fa-solid fa-magnifying-glass"></i></li>
+                <li class="icon" id="sidebar"><i class="fa-solid fa-bars-staggered"></i></li>
+            </ul>
+
+
+
+
         </div>
         <div class="hot_new">
             <img src="img/cookie.png" alt="cake">
@@ -208,9 +211,9 @@
         <div class="footer_item_left">
             <img src="img/icon_nbc.png" alt="">
             <p> copyright © 2020 | NBC NEWS </p>
-            
+
         </div>
-        
+
         <div class="footer_item_center">
             Privacy Policy <br>
             Do not sell my personal info <br>
@@ -240,7 +243,19 @@
 
     </div>
 
+    <script>
 
+            
+
+        var menu = document.querySelector('.menu')
+        var tasbar = document.querySelector('#sidebar')
+        tasbar.onclick = () =>{
+            menu.classList.toggle('active');
+        
+        }
+       
+
+    </script>
 </body>
 
 </html>
